@@ -1,0 +1,9 @@
+services:
+  cpp-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: vending_machine
+    stdin_open: true
+    tty: true
+
