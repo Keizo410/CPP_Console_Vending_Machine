@@ -2,8 +2,10 @@
 
 This system is for practicing __state system pattern__ in OOP manner with C++. 
 
-# You need to run:
+# You can run docker:
 
+```
 docker build -t vending_machine .
 
 docker run -it vending_machine
+```
